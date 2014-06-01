@@ -1,0 +1,11 @@
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\Anyo.WindowsForms.Validation\obj\Debug\ResolveAssemblyReference.cache
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\Anyo.WindowsForms.Validation\bin\Debug\Anyo.WindowsForms.Validation.dll
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\Anyo.WindowsForms.Validation\bin\Debug\Anyo.WindowsForms.Validation.pdb
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\Anyo.WindowsForms.Validation\obj\Debug\Anyo.WindowsForms.Validation.dll
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\Anyo.WindowsForms.Validation\obj\Debug\Anyo.WindowsForms.Validation.pdb
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\Anyo.WindowsForms.Validation\bin\Debug\Anyo.WindowsForms.Validation.XML
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\Anyo.WindowsForms.Validation\bin\Debug\Anyo.WindowsForms.Validation.dll
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\Anyo.WindowsForms.Validation\bin\Debug\Anyo.WindowsForms.Validation.pdb
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\Anyo.WindowsForms.Validation\obj\Debug\ResolveAssemblyReference.cache
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\Anyo.WindowsForms.Validation\obj\Debug\Anyo.WindowsForms.Validation.dll
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\Anyo.WindowsForms.Validation\obj\Debug\Anyo.WindowsForms.Validation.pdb

@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Anyo.WindowsForms.Validation</name>
+    </assembly>
+    <members>
+        <member name="T:Anyo.WindowsForms.Validation.CheckThatInput">
+            <summary>
+            Specifies what kind of validation to check input data.
+            </summary>
+        </member>
+        <member name="F:Anyo.WindowsForms.Validation.CheckThatInput.IsInteger">
+            <summary>
+            Check that a string input can parse to integer.
+            </summary>
+        </member>
+        <member name="F:Anyo.WindowsForms.Validation.CheckThatInput.IsDecimal">
+            <summary>
+            Check that a string input can parse to decimal.
+            </summary>
+        </member>
+        <member name="F:Anyo.WindowsForms.Validation.CheckThatInput.IsText">
+            <summary>
+            Check whether a string input is text with certain rules.
+            </summary>
+        </member>
+        <member name="T:Anyo.WindowsForms.Validation.Validation">
+            <summary>
+            Provides methods that support data validation.
+            </summary>
+            <example>
+            <img src="../Images/ValidationMessage.jpg" />
+            <code>
+            using Anyo.WindowsForms.Validation;
+            
+            public partial class AddProducts : Form
+            {
+                private Validation addProductValidation;
+            
+                public AddProducts()
+                {
+                    InitializeComponent();
+                   
+                    this.addProductValidation = new Validation();
+                    this.addProductValidation.KindOfValidation(this.ProductName_textBox,
+                                                               CheckThatInput.IsText);
+                
+                    this.addProductValidation.KindOfValidation(this.Categories_comboBox,
+                                                               CheckThatInput.IsText);
+                    this.addProductValidation.KindOfValidation(this.Vendor_comboBox,
+                                                               CheckThatInput.IsText);
+                    this.addProductValidation.KindOfValidation(this.Stores_comboBox,
+                                                               CheckThatInput.IsText);
+                    this.addProductValidation.KindOfValidation(this.Towns_comboBox,
+                                                               CheckThatInput.IsText);
+                
+                    this.addProductValidation.KindOfValidation(this.UnitPrice_textBox,
+                                                               CheckThatInput.IsDecimal);
+                    this.addProductValidation.KindOfValidation(this.Quantity_textBox,
+                                                               CheckThatInput.IsInteger);
+                
+                    this.addProductValidation.DeactivateControlsDuringValidating(this.insert_btn);
+                }
+                
+                private void clear_btn_Click(object sender, EventArgs e)
+                {
+                    this.addProductValidation.RestartValidation();
+                }
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="M:Anyo.WindowsForms.Validation.Validation.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Anyo.WindowsForms.Validation.Validation.KindOfValidation(System.Windows.Forms.Control,Anyo.WindowsForms.Validation.CheckThatInput)">
+            <summary>
+            Attach KindOfValidation to specific TextBox or ComboBox control 
+            </summary>
+            <param name="controlName">TextBox or ComboBox control instance name</param>
+            <param name="kindOfValidation">select kind of validation</param>
+            <example>
+            <code>
+            using Anyo.WindowsForms.Validation;
+            
+            public partial class AddProducts : Form
+            {
+                private Validation addProductValidation;
+                private TextBox ProductName_textBox;
+                private ComboBox Categories_comboBox;
+                
+                public AddProducts()
+                {
+                    InitializeComponent();
+                   
+                    this.ProductName_textBox = new TextBox();
+                    this.Categories_comboBox = new ComboBox();
+                    this.addProductValidation = new Validation();
+                    
+                    //controlName => this.ProductName_textBox 
+                    //kindOfValidation => CheckThatInput.IsText
+                    this.addProductValidation.KindOfValidation(this.ProductName_textBox,
+                                                               CheckThatInput.IsText);
+                    
+                    //controlName => this.Categories_comboBox
+                    //kindOfValidation => CheckThatInput.IsText
+                    this.addProductValidation.KindOfValidation(this.Categories_comboBox,
+                                                               CheckThatInput.IsText);
+                }
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="M:Anyo.WindowsForms.Validation.Validation.DeactivateControlsDuringValidating(System.Windows.Forms.Control)">
+            <summary>
+            Add control object to the collection of controlss which will be disabled during validation.
+            </summary>
+            <param name="controlName">control instance name</param>
+            <example>
+            <code>
+            using Anyo.WindowsForms.Validation;
+            
+            public partial class AddProducts : Form
+            {
+                private Validation addProductValidation;
+                private Button insert_btn;
+                private GradientButton delete_btn;
+                private GradientButton update_btn;
+            
+                public AddProducts()
+                {
+                    InitializeComponent();
+                   
+                    this.addProductValidation = new Validation();
+                    
+                    this.insert_btn = new Button();
+                    this.delete_btn = new GradientButton();
+                    this.update_btn = new GradientButton();
+                
+                    this.addProductValidation.DeactivateControlsDuringValidating(this.insert_btn);
+                    this.addProductValidation.DeactivateControlsDuringValidating(this.delete_btn);
+                    this.addProductValidation.DeactivateControlsDuringValidating(this.update_btn);
+                }
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="M:Anyo.WindowsForms.Validation.Validation.RestartValidation">
+            <summary>
+            Clear all TextBoxes and ComboBoxes after some action.
+            </summary>
+            <example>
+            <code>
+            using Anyo.WindowsForms.Validation;
+            
+            public partial class AddProducts : Form
+            {
+                private Validation addProductValidation;
+                private Button insert_btn;
+                private Button clear_btn;
+                private GradientButton delete_btn;
+                private GradientButton update_btn;
+            
+                public AddProducts()
+                {
+                    InitializeComponent();
+                   
+                    this.addProductValidation = new Validation();
+                    
+                    this.insert_btn = new Button();
+                    this.clear_btn = new Button();
+                    this.delete_btn = new GradientButton();
+                    this.update_btn = new GradientButton();
+                }
+                
+                private void AddProducts_Load(object sender, EventArgs e)
+                {
+                    this.addProductValidation.RestartValidation();
+                }
+                
+                private void insert_btn_Click(object sender, EventArgs e)
+                {
+                    this.addProductValidation.RestartValidation();
+                }
+                
+                private void clear_btn_Click(object sender, EventArgs e)
+                {
+                    this.addProductValidation.RestartValidation();
+                }
+                
+                private void delete_btn_Click(object sender, EventArgs e)
+                {
+                    this.addProductValidation.RestartValidation();
+                }
+                
+                private void update_btn_Click(object sender, EventArgs e)
+                {
+                    this.addProductValidation.RestartValidation();
+                }
+            }
+            </code> 
+            </example>
+        </member>
+    </members>
+</doc>

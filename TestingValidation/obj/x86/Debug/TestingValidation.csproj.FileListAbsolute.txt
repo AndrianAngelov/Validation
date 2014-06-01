@@ -1,0 +1,25 @@
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\TestingValidation.Properties.Resources.resources
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\TestingValidation\bin\Debug\TestingValidation.exe
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\TestingValidation\bin\Debug\TestingValidation.pdb
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\TestingValidation.exe
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\TestingValidation.pdb
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\For test\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\TestingValidation.TestForm.resources
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\POS_test\ForSend\16.03.2014\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\TestingValidation.exe
+D:\new age\1 TELERIK\JobAttack\REAL\WidowsForms\POS_test\ForSend\16.03.2014\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\TestingValidation.pdb
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\TestingValidation.exe
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\TestingValidation.pdb
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\bin\Debug\TestingValidation.exe
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\bin\Debug\TestingValidation.pdb
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\TestingValidation.Properties.Resources.resources
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\bin\Debug\Anyo.WindowsForms.Validation.dll
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\bin\Debug\Anyo.WindowsForms.Validation.xml
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\bin\Debug\Anyo.WindowsForms.Controls.dll
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\bin\Debug\Anyo.WindowsForms.Controls.xml
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\obj\x86\Debug\TestingValidation.AddProducts.resources
+D:\new age\1 TELERIK\JobAttack\REAL\Documentation\RealDoc\DocumantationSource\Anyo.WindowsForms\AnyoWindowsFormsValidation\TestingValidation\bin\Debug\Anyo.WindowsForms.Validation.pdb
